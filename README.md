@@ -14,7 +14,7 @@ Visualization of predictions vs actual prices
 
 Error analysis with RMSE metrics
 
-🎯 What This Project Does
+## 🎯 What This Project Does
 This project demonstrates how to build a neural network that predicts stock prices using historical data. It:
 
 Downloads real stock data from Yahoo Finance
