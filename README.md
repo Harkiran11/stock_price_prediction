@@ -27,15 +27,15 @@ Visualizes predictions compared to actual prices
 
 Calculates prediction accuracy using RMSE (Root Mean Squared Error)
 
-🔧 How It Works
-1. Data Collection & Preparation
+## 🔧 How It Works
+### 1. Data Collection & Preparation
 Uses yfinance library to download historical stock data
 
 Focuses on daily closing prices
 
 Normalizes data using StandardScaler for better training
 
-2. Model Architecture
+### 2. Model Architecture
 Built with PyTorch's LSTM layers
 
 Input: Sequence of previous days' prices (default: 30 days)
@@ -46,7 +46,7 @@ Uses Mean Squared Error loss for training
 
 Optimized with Adam optimizer
 
-3. Training Process
+### 3. Training Process
 Splits data into training (80%) and testing (20%) sets
 
 Trains on historical sequences (look-back pattern)
@@ -55,7 +55,7 @@ Automatically uses GPU if available for faster training
 
 Tracks and displays loss during training
 
-4. Evaluation & Visualization
+## 4. Evaluation & Visualization
 Calculates RMSE for both training and test data
 
 Creates comparative plots showing actual vs predicted prices
